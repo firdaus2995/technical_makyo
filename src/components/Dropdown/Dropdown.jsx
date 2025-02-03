@@ -8,7 +8,7 @@ const Dropdown = ({
   portal = false,
   zIndex = 1050,
   onRenderOption,
-  outlined = false, // Properti untuk mengubah gaya menjadi outlined
+  outlined = false,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchValue, setSearchValue] = useState("");
