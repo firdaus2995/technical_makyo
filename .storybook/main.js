@@ -12,6 +12,6 @@ const config = {
     name: "@storybook/react-webpack5",
     options: {},
   },
-  staticDirs: ["../storybook-static"],
+  staticDirs: ["../src/stories"],
 };
 export default config;
